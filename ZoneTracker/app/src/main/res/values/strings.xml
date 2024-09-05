@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZoneTracker</string>
+    <string name="xname">x = </string>
+    <string name="yname">y = </string>
+    <string name="zname">z = </string>
+    <string name="latitud">Latitud  = </string>
+    <string name="longitud">Longitud = </string>
+    <string name="num_baches">Numero de baches = </string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

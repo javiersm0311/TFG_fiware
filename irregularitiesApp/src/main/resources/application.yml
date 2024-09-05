@@ -1,0 +1,23 @@
+server:
+  port: 1029
+spring:
+  application:
+    name: irregularities-app
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: a
+    password: a
+    url: jdbc:h2:file:./data/mydb;DB_CLOSE_ON_EXIT=FALSE;AUTO_RECONNECT=TRUE
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER

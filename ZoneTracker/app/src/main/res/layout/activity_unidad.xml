@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="91dp"
+            android:layout_marginBottom="-14dp"
+            android:layout_weight="1"
+            android:capitalize="none"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType=""
+            android:text="Seleccione una unidad"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textDirection="firstStrongRtl"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/atrasButton"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_light_disabled"
+            android:text=" Atras"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/cordobaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="CORDOBA"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sevillaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="SEVILLA"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cadizButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="CADIZ"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/huelvaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="HUELVA"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/almeriaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="ALMERIA"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/jaenButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="JAEN"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/granadaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="GRANADA"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/malagaButton"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="MALAGA"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
